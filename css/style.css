@@ -31,8 +31,26 @@
 html {
     width: 100%;
     height: 100%;
+    background-color: var(--background_color);
+
 }
 
 h1 {
     font-weight: bold;
+    text-align: center;
+    font-size: 3.5em;
+    color: var(--primary_color);
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 9vw;
+    }
 }

@@ -1,0 +1,38 @@
+div.hero {
+    background-color: var(--secondary_lighter);
+    border-radius: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vw;
+    max-width: 96vw;
+}
+
+img.hero {
+    margin: 3vw 2vw 1vw 2vw;
+    border-radius: 2vw;
+    max-width: 92vw;
+}
+
+p.hero {
+    width: 60%;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+button.hero {
+    margin-bottom: 1vw;
+    border-radius: 2vw;
+    background-color: var(--background_color);
+    color: var(--primary_color);
+    width: 40vw;
+    height: 3vh;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    p.hero {
+        width: 92vw;
+    }
+}
