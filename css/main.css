@@ -10,7 +10,7 @@ div.hero {
 
 img.hero {
     margin: 3vw 2vw 1vw 2vw;
-    border-radius: 3vw;
+    border-radius: 2vw;
     max-width: 92vw;
 }
 
@@ -22,7 +22,7 @@ p.hero {
 
 button.hero {
     margin-bottom: 1vw;
-    border-radius: 2vw;
+    border-radius: 1vw;
     padding: 1vw;
     background-color: var(--primary_color);
     color: var(--background_color);
@@ -46,6 +46,11 @@ button.hero:hover {
         width: 60vw;
         height: 8vw;
         font-size: 5vw;
+        border-radius: 2vw;
         min-height: fit-content;
+    }
+
+    img.hero {
+        border-radius: 3vw;
     }
 }
