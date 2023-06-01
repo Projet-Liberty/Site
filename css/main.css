@@ -10,7 +10,7 @@ div.hero {
 
 img.hero {
     margin: 3vw 2vw 1vw 2vw;
-    border-radius: 2vw;
+    border-radius: 3vw;
     max-width: 92vw;
 }
 
@@ -23,16 +23,29 @@ p.hero {
 button.hero {
     margin-bottom: 1vw;
     border-radius: 2vw;
-    background-color: var(--background_color);
-    color: var(--primary_color);
-    width: 40vw;
-    height: 3vh;
-
+    padding: 1vw;
+    background-color: var(--primary_color);
+    color: var(--background_color);
+    font-weight: bold;
+    font-size: large;
+    border: var(--font_color);
+    transition: box-shadow 0.3s;
+    cursor: pointer;
 }
 
+button.hero:hover {
+    box-shadow: var(--font_color);
+}
 
 @media only screen and (max-width: 600px) {
     p.hero {
         width: 92vw;
+    }
+
+    button.hero {
+        width: 60vw;
+        height: 8vw;
+        font-size: 5vw;
+        min-height: fit-content;
     }
 }
