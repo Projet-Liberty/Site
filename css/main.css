@@ -34,7 +34,7 @@ button.hero {
 }
 
 button.hero:hover {
-    box-shadow: var(--font_color);
+    box-shadow: var(--font_color) 0 0 1.5rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -43,8 +43,9 @@ button.hero:hover {
     }
 
     button.hero {
-        width: 60vw;
-        height: 8vw;
+        width: 65vw;
+        height: 10vw;
+        margin-bottom: 3vw;
         font-size: 5vw;
         border-radius: 2vw;
         min-height: fit-content;
