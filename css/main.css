@@ -6,6 +6,7 @@ div.hero {
     align-items: center;
     margin: 2vw;
     max-width: 96vw;
+    max-height: 76vh;
 }
 
 img.hero {
@@ -39,7 +40,7 @@ button.hero:hover {
 
 @media only screen and (max-width: 600px) {
     p.hero {
-        width: 92vw;
+        width: 88vw;
     }
 
     button.hero {
