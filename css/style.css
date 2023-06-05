@@ -61,6 +61,11 @@ body {
     align-items: center;
 }
 
+p {
+    width: 92vw;
+    margin-top: 0;
+}
+
 #menu__toggle {
     display: none;
 }
@@ -79,11 +84,12 @@ body {
     text-decoration: none;
     color: var(--font_color);
     font-weight: bold;
-    transition: color 0.3s;
+    transition: color 0.3s, text-shadow 0.3s;
 }
 
 .menu__item:hover {
     color: var(--primary_color);
+    text-shadow: var(--font_color) 0 0 0.03em;
 }
 
 @media only screen and (max-width: 600px) {

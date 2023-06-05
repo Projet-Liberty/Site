@@ -10,7 +10,7 @@ div.hero {
 }
 
 img.hero {
-    margin: 3vw 2vw 1vw 2vw;
+    margin: 3vw 2vw 5vw 2vw;
     border-radius: 2vw;
     max-width: 92vw;
 }
@@ -38,6 +38,10 @@ button.hero:hover {
     box-shadow: var(--font_color) 0 0 1.5rem;
 }
 
+button.tele {
+    font-size: medium;
+}
+
 @media only screen and (max-width: 600px) {
     p.hero {
         width: 88vw;
@@ -50,6 +54,12 @@ button.hero:hover {
         font-size: 5vw;
         border-radius: 2vw;
         min-height: fit-content;
+    }
+
+    button.tele {
+        font-size: 4vw;
+        height: 8vw;
+        width: 55vw;
     }
 
     img.hero {

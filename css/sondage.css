@@ -43,6 +43,18 @@ h3.formation {
     font-size: x-large;
 }
 
+p.question {
+    margin-top: 0;
+}
+
+ul.question {
+    margin-top: 0%;
+}
+
+h3.question {
+    width: 100%;
+}
+
 @media only screen and (max-width: 600px) {
     p.hero {
         width: 88vw;
