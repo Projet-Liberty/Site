@@ -45,18 +45,24 @@ h3.formation {
 
 p.question {
     margin-top: 0;
+    width: 80%;
 }
 
 ul.question {
     margin-top: 0%;
+    width: 80%;
 }
 
 h3.question {
-    width: 100%;
+    width: 80%;
 }
 
 @media only screen and (max-width: 600px) {
     p.hero {
+        width: 88vw;
+    }
+
+    h3.question {
         width: 88vw;
     }
 
@@ -69,8 +75,22 @@ h3.question {
         min-height: fit-content;
     }
 
+    button.formation {
+        margin-bottom: 10vh;
+    }
+
     div.hero {
         height: 75vh;
         margin-bottom: 30%;
+    }
+
+    p.question {
+        margin-top: 0;
+        width: 88vw;
+    }
+
+    ul.question {
+        margin-top: 0%;
+        width: 88vw;
     }
 }

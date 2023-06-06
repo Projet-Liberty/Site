@@ -4,9 +4,9 @@ div.hero {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2vw;
+    margin: 0 2vw 0 2vw;
     max-width: 96vw;
-    max-height: 76vh;
+    height: fit-content;
 }
 
 img.hero {
@@ -41,6 +41,8 @@ button.hero:hover {
 button.tele {
     font-size: medium;
 }
+
+
 
 @media only screen and (max-width: 600px) {
     p.hero {
