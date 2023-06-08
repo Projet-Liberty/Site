@@ -171,6 +171,9 @@ img.footer {
         height: 33px;
         cursor: pointer;
         z-index: 1;
+        border-radius: 10px;
+
+        backdrop-filter: blur(2px);
     }
 
     .menu__btn>span,
